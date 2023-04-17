@@ -1,17 +1,25 @@
 package com.inetum.apialumno.entity;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.io.Serializable;
 
+/**
+ * @author : Celso Calla
+ * @descripción : Class Curso (Esta clase contiene metodos y atributos del curso)
+ * @fecha_de_creación : 17-04-2023
+ * @fecha_de_ultima_actualización : 17-04-2023
+ */
 @Entity
 @Table(name = "curso")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class Curso implements Serializable {
 
     @Id

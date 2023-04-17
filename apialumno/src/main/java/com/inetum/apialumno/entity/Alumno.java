@@ -7,6 +7,12 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.io.Serializable;
 
+/**
+ * @author : Celso Calla
+ * @descripción : Class Alumno (Esta clase contiene metodos y atributos del alumno)
+ * @fecha_de_creación : 17-04-2023
+ * @fecha_de_ultima_actualización : 17-04-2023
+ */
 @Entity
 @Table(name = "alumno")
 @Data
